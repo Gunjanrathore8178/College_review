@@ -67,9 +67,54 @@
             cursor: pointer;
 
         }
+        .header{
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            align-items: center;
+            z-index: 100;
+            background-color: lightpink;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
+        .left-section{
+           margin-top: 20px;
+           margin-right: 230px;
+           width: 370px;
+        }
+        .college-logo{
+            width: 100%;
+        }
+        .right-section{
+           display: flex;
+           flex-direction: row;
+           font-size: 16px;
+           justify-content: space-between;
+           width: 600px;
+           margin-top: 20px;
+        }
+        .attributes:hover{
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
+    <div class="header">
+        <div class="left-section">
+            <img class="college-logo" src="ADGITM-WEB-LOGO.png" />
+        </div>
+        <div class="right-section">
+            <div class="attributes">ABOUT &#9662;</div>
+            <div class="attributes">PROGRAMMES &#9662;</div>
+            <div class="attributes">ACADEMICS &#9662;</div>
+            <div class="attributes">PLACEMENTS &#9662;</div>
+            <div class="attributes">GALLERY &#9662;</div>
+        </div>
+    </div>
     <h1 class="rating_heading">5 Star Rating</h1>
     <div class="star_rating">
         <p>How was your experience?</p>
