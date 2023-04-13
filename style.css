@@ -1,60 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+            
+    
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right,grey,lightpink);
 
-}
-.rating_heading{
-    color: white;
-    animation: scale-up 1s ease;
-}
-@keyframes scale-up{
-    0%{
-        opacity: 0;
-        transform: scale(.5);
-    }
-    100%{
-        opacity: 1;
-        transform: scale(1);
-    }
     
 }
-.star_rating{
-    user-select: none;
-    background-color: white;
-    padding: 1.4rem 2.5rem;
-    margin: 2rem;
-    border-radius: 0.4rem;
-    text-align: center;
-    animation: slide-up 1s ease;
-}
-@keyframes slide-up{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-.star{
-    font-size: 3rem;
-    color: gold;
-    background-color: unset;
-    border: none;
+.container-fluid{
+    padding: 3% 10% 1%;
+  }
 
+.navbar{
+  padding: 0 0 4.5rem;
+  align-items: center;
 }
-.star:hover{
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+
+.attributes:hover{
     cursor: pointer;
-
+}
+.banner{
+    margin: 0 5% ;
+    background-image: url("https://img.collegepravesh.com/2016/01/NIEC-Delhi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 15% 4%;
+    text-align: center;
+    width: 90%;
+  height: 75%;
+}
+.banner-head h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 2.5% 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    z-index: 100;
+    background-color: lightblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.left-section{
+   margin-top: 20px;
+   margin-right: 230px;
+   width: 370px;
+}
+.college-logo{
+    width: 100%;
+}
+.right-section{
+   display: flex;
+   flex-direction: row;
+   font-size: 16px;
+   justify-content: space-between;
+   width: 600px;
+   margin-top: 20px;
+}
+.attributes:hover{
+    cursor: pointer;
 }
