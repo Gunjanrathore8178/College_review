@@ -7,11 +7,11 @@ body{
     
 }
 .container-fluid{
-    padding: 3% 10% 1%;
+    padding: 1% 10% 1%;
   }
 
 .navbar{
-  padding: 0 0 4.5rem;
+  background-color: rgb(171, 109, 230);
   align-items: center;
 }
 .navbar-brand{
@@ -26,13 +26,14 @@ body{
 .nav-link{
   font-size: 1.2rem;
   font-family: Montserrat-light;
+  color: #ffffff;
 }
 
 .attributes:hover{
     cursor: pointer;
 }
 .banner{
-    margin: 0 5% ;
+    margin: 3% 5% ;
     background-image: url("https://img.collegepravesh.com/2016/01/NIEC-Delhi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,4 +46,32 @@ body{
     font-weight: 900;
     font-size: 3.5rem;
     padding: 2.5% 0;
+}
+
+#testimonials{
+  background-color: rgb(171, 109, 230);
+  text-align: center;
+  margin: 5% 0;
+
+}
+#testimonials h1{
+  padding-top: 3%;
+    font-weight: 800;
+    font-size: 3rem;
+}
+ 
+.carousel-item{
+padding:3% 7% 3%;
+}
+.testimonials-heading{
+color: rgb(18, 17, 17);
+font-family: Montserrat;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 2rem;
+}
+.testimonials-img{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
 }
