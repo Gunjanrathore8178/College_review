@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    
             
     
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +14,7 @@ body{
 .navbar{
   background-color: rgb(171, 109, 230);
   align-items: center;
+ 
 }
 .navbar-brand{
   font-family: Ubuntu;
@@ -37,21 +39,21 @@ body{
     background-image: url("https://img.collegepravesh.com/2016/01/NIEC-Delhi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4% 15% 4%;
+    padding: 4% 10% ;
     text-align: center;
     width: 90%;
   height: 75%;
 }
 .banner-head h1{
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding: 2.5% 0;
 }
 
 #testimonials{
-  background-color: rgb(171, 109, 230);
+  
   text-align: center;
-  margin: 5% 0;
+ 
 
 }
 #testimonials h1{
@@ -74,4 +76,87 @@ line-height: 2rem;
 width: 10%;
 border-radius: 100%;
 margin: 20px;
+}
+#academics{
+  align-items: center;
+  text-align: center;
+}
+#academics .row{
+  padding: 4% 7% ;
+}
+#academics h1{
+  font-size: 4.5rem;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+#academics p{
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  line-height: 1.8rem;;
+}
+#academics img{
+ height: 300px; 
+}
+
+#placement{
+  align-items: center;
+  text-align: center;
+}
+#placement .row{
+  padding: 4% 7% ;
+}
+#placement h1{
+  font-size: 4.5rem;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+#placement p{
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  line-height: 1.8rem;;
+}
+#placement img{
+ height: 500px; 
+}
+#course{
+  align-items: center;
+  text-align: center;
+}
+#course .row{
+  padding: 4% 7% ;
+}
+#course h1{
+  font-size: 4.5rem;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+#course li{
+  font-size: 1.6rem;
+  font-family: Montserrat;
+  line-height: 1.8rem;;
+}
+#course img{
+ height: 300px; 
+}
+
+#footer{
+  align-items: center;
+  background-color: rgb(171, 109, 230);
+}
+#footer .row{
+  padding: 4% 7% ;
+}
+#footer a{
+  color: #ffffff;
+}
+#footer li{
+  color: #ffffff;
+}
+.credit{
+  background-color: rgb(42, 3, 79);
+}
+.credit p{
+  text-align: center;
+  color: white;
+
 }
