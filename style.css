@@ -11,6 +11,7 @@ body{
 
 .navbar{
   background-color: rgb(171, 109, 230);
+  width: 198vh;
   align-items: center;
  
 }
