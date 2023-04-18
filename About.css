@@ -2,7 +2,7 @@ body {
   padding-top: 120px;
 }
 
-p {
+.imgwithcont p {
   font-family: Roboto, Arial;
   font-size: 18px;
   color: rgb(29, 29, 29);
@@ -19,7 +19,7 @@ div {
   color: rgb(29, 29, 29);
 }
 
-img {
+.imgwithcont  img {
   height: 200px;
   width: 360px;
   margin-left: 116px;
