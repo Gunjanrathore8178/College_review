@@ -9,16 +9,20 @@ body{
     box-sizing: border-box;
     
 }
+.btn{
+  background-color: rgba(3, 92, 83, 0.9);
+}
 .container-fluid{
     padding: 1% 10% 1%;
   }
 .navbar{
-  background-color: rgb(171, 109, 230);
+  background-color: rgba(3, 92, 83, 0.9);
   align-items: center;
   width: 100%;
  
 }
 .navbar-brand{
+  background-color: #ffffff;
   font-family: Ubuntu;
   font-size: 2.2rem;
   font-weight: bold;
@@ -26,12 +30,18 @@ body{
 
 .nav-item{
   padding: 0 18px;
+  
 }
 .nav-link{
   font-size: 1.2rem;
   font-family: Montserrat-light;
   color: #ffffff;
+  
 }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: rgba(56, 241, 222, 0.9);
+}
+
 
 .attributes:hover{
     cursor: pointer;
@@ -140,7 +150,7 @@ margin: 20px;
 
 #footer{
   align-items: center;
-  background-color:  rgb(173, 182, 162);
+  background-color: rgba(3, 92, 83, 0.9);
 }
 #footer .row{
   padding: 4% 7% ;
@@ -152,10 +162,10 @@ margin: 20px;
   color: #ffffff;
 }
 .credit{
-  background-color: rgb(42, 3, 79);
+  background-color:  rgba(56, 241, 222, 0.9);
 }
 .credit p{
   text-align: center;
-  color: white;
+  color: rgb(133, 127, 127);
 
 }
