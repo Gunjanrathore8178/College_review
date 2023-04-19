@@ -4,12 +4,65 @@
     <title>
       About
     </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Review System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <link href="About.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="ADGITM-WEB-LOGO.png" alt="" width="300">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Placement.html">Placements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">bbb</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">BTech</a></li>
+                    <li><a class="dropdown-item" href="#">BBA</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">MBA</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                
+              </ul>
+             
+            </div>
+          </div>
+        </nav>
+  </div>
+    
+    
     <div>
       <div class="l3-headings">ADGITM  at a Glance</div>
       <p class="glance-para">
@@ -145,5 +198,49 @@
         The Institute has an exclusive Training and Placement Cell. This Cell is entrusted with the task of creating opportunities for summer training from various companies and industrial visits to the students. Personality Development Programmes are conducted every year to the students to enable them to acquire proper soft skills. Training and Placement Cell also arranges Guest Lectures by eminent personalities from various industries to make the students aware of the upcoming technology/trends in industries. Along with these activities, the cell plays a major role for the placement of the students by inviting reputed companies in our campus for recruitment. College also provides pool campus for students from other institutions. In-house training is also conducted for B.Tech/MBA/BBA students by renowned companies like Purple Leap, Sofcon, Cadzone and Ranstad India Ltd., to impart professional and technical training.
       </p>
     </div>
+
+    <section id="footer">
+      <div class="row align-items-center">
+
+        <div class="col-lg-4">
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMQEBUTEhIWFhUVEBkVFhUSFRkWFRMYIBYXHRcWFxYaHSghHhonHhgZLTEiJS0rLi4uGB8zODMuQygtLisBCgoKDg0OGxAQGy0gHSUvLi0tLS0tLS0tLy0tNS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLf/AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEBAAMBAQEBAAAAAAAAAAAABwEFBgMEAgj/xABLEAABAwIABwkNBAkDBQAAAAABAAIDBBEFBgcSITFBEyJRYXFzgZGyFBcjMjVCUlSSobHB0WJkcuIzY4KToqPS4eMVU8IWNIPw8f/EABsBAQACAwEBAAAAAAAAAAAAAAAEBQIDBgcB/8QANhEAAgECAgQLCAIDAAAAAAAAAAECAwQFERIhMbETIjI0QVFhcXKh0QYVUoGRweHwM2IUI0P/2gAMAwEAAhEDEQA/ALiiLisZMeu4p3Q7hn5oBzt0zb3F9WYfivjaW030LepXloU1m+9Le0dqim3fS+6H99/jWe+l91/nf41jwkesme5734POPqUhFN++l90P77/GvqwblKie8NliMbT5wdngcozQbcl04SPWYywm8is3DzT3M75FxOMGOk1I0SdxCWB3izRT5zCDqzvB73p0ca1eC8rcEj82eB8Q2ODt0HSM0EdF1vVGbWaRWOaTyZSkXL1eM0mZutPC2ph9OGW7hyszLg8WlaJ2U8eqn97+RaXJJ5MnULC4rx0qUc13x9Siopx30h6qf3v5E76P3X+Z+RfNOJv9z3nwea9Sjopx30fuv8z8id9H7r/M/InCRPnui8+Dzj6lHRToZUW7ac+2P6V6w5Toj40Eg/CWn42TTj1nx4TeL/m/qvUoCLj6XKHRu8YvZ+Jn9JK3lDhymn/RTsceDOs72TpWSknsI1S0r01nODS7jaIiL6RwiIgCIiAIiIAozlL8oP5tnZVmUZyl+UH82zsha6vJLzAOcvwvejlURFGOyCysIgOixVxndSnc5BukD9D43aQAdZaD7xqK8secTmxM7so9/TP3xA07lf8A4curUVo11mI2MQgeYJ99BLoOdpDSdGkHzTt61Kt7h032HO4zhMa0XVprjLal09vecJgrC01I/Pgkcx32ToPE4aiOVdzg/GGjwpZlY1tPUGwbPHoY8/aGzp6wtJlCxT/0+fOjBNPKbxnXmHawn4cI5CuRCtpU6daOZxlGtUoT0oPJncYxYtzUR3wzmHxXt0tPLwHiK0y2+J2O5px3NVjdaZ29s7fGMcV9beLqW2xqxVEbBU0rt0pnjO3pvmg7b7W8esbVU17aVJ9h2mF43G4/11tUuh9D9DkUWVhRToQiIgCzdYRAdBgfG+qpiA2QvZ6Mm+HQdY6CqLi5jrBV2Y7wUp81x0O/C7bya1GllpWyNRoq7vCbe4WeWjLrX3XSf0cFlS/EzHgtIhqnXZqbKdbeJ52jj2fCnB1xoUiMk9hx93Z1LaehP5PoZ+kRF9IoREQBRrKZ5QfzbOy1WVRrKZ5QfzbOy1a6vJLzAOcvwvejlERFGOyCzZG7Fa8FYv0Xc7c2KN7Swb9wDi7RrLlnGGkV9/iEbRRcot59RE1kLZYyU0UVVIyE3ja+zTe+wXF9tjcdC1ixZNhNTgpLpSZScW52YVoJKKc79jN646XW8x442nQeLlUiwjQvp5nxSCz43lpHJt5D9F0+LmFDSVLJBqBs4cLT4w6vfZdDlgwKHNjrotIcAyQjbceDf8vZVnY1teizhceseAracVxZa/n0kvXZ5Pcce437hOb00hsQdO5E+cB6J2jp5eMX5VjOCksmUSbTzRTcesWO5nbvDpgkN9GkNJ2fhOzqXILvMmGGm1lM/B9Rvs1ng76yzaOVptbi5FyeHcGOpZ3xP806D6TdjukKiuKTpyO9wTEv8mnwc3xo+a/Br0RFHL0IiIAiIgMhUTJ1jSQRTTO0HRE4nV9g/Lq4FOl+mvIIINiNRGsLKMtF5kS8tIXNJwn8n1M/o5FzmJOHe7KYFx8Izev4zsd0j33XRqWnmszgKtKVKbpz2oIiIawo1lM8oP5tnZarKo1lM8oP5tnZatdXkl5gHOX4XvRyiIijHZBe0dVI1pa2RwadYDiAei68UQ+OKe0yVhEQ+mVUcVCMI4KkpX6S1piudmi8bug29lS1dtkqrcypfEdUkX8TTo9xK2UpNS1FRjVBVbST6Y6/Ul08ZY5zXCxa4tI4CDYrC6bKXQbhhOYDU8iUftC5/izlzK6KMtJJnnb1PI+7AWE3UlTFO3XG8Otwjzm8hFx0qs5TKFs0EVXHpFgCRtY4EtPX2lFlbsV392YAzDpLYXx9LCSz3Zqh3tPOKZYYZcOhcRl2/hkvRZPzWFSnpYREQBERAEREB0mIeF+5qtlzvH+Df0+Keg26CVbF/ODVd8VsId00kUp1llnfiGh3vC30n0HK+0FvlKNZdOp/Y3CIi3HNhRrKZ5QfzbOy1WVRrKZ5QfzbOy1a6vJLzAOcvwvejlERFGOyCIiAIiIAt9iNNmV8BG1+b1gj5rQrc4mtvXU9v94fMrKO1Ea810Jr+r3Gxy2w2qoH+lAQeh35lN1UMuEnhaVu0RyHj0lv0UxV/b/xo8wqcoK1ZJTbBTydW6yHozGKKq1YLZ3FgAX0OfETx3kO99zh1LXdvKBttYOdVRW15Eyd81hZKwqI9TCIiAIiIAiIgMqn5J6y8MsRPiPDhyOGzpaetTBdlksqc2rLb6HxEW4wWke662U3xirxinwlpPs1/vyK6iIpJwoUaymeUH82zstVlUaymeUH82zstWuryS8wDnL8L3o5RERRjsgiIgCIiALsMmNAZKzdNkTCTynQB8epci1tyABcnUBrKrmL2D3YOoTZodUyNLhG5zWl77b2MEnZ9VtpRzkVGM3So2zitstS+5OMrOEhNhFzRpELBH0+M73ut0LjF9WFoJmTO7oa5shcXO3QEOJJuTpXyroIR0YpI88k83mb3EvAJr6tkXmA58p4GDX16B0ruspuGA+RtLH4sWl1tWdbQ3oHx4lqsn+NNJS074HXgmkveoI3Rt9TbgaQBwaRr4V44TxbnDTMwtqInEndYXZ4PCXW08qrb5zbyy1HQez8KHDadSSTWxPr/HUc+iyQsKsO6CIiAIiIAiIgMroMQZc2vg43uHWHBc+ttik61fTn9ez3uAWUdpGu1pUJr+r3MvKIilnnQUaymeUH82zstVlUaymeUH82zstWuryS8wDnL8L3o5REX6ZbbflGvqUY7Js/KL7o6Fr/ABZo/wDyExnrIt7190WLMrhfdIGjhdUMt7iVlos0SuaceU8u80a9IoS9wa0EkmwDRcnoXRx4CpY9M9dGfs04MhP7WodS9jjNDStLaCDNcRYzS76Q8g2fDiWSj1mmV45aqMHJ9bWS+r+2ZsMEYKhwYwVFZYzWvFANJB4SOHj1DlXK4dw5LVzGSQ29FoO9YOAfXavjrKt8ry+Rxc463ONz/wDF4r45askfKFo4zdWo9Ko+noS6kjfUeMWcwRVkbamIaBn/AKWPjY/WvDC+JAfGajB0hnjGl0R/TR8VvO+PLrWnX24KwpLSyCSNxa4dThwEbQt1G5nTfYQMRwOjcpyprRl5M5ZwtoK+/A2G6ijfnQSuZp0gaWu4nNOgqhYRwLBhqJ09OGxVjReSPU2Xj5T6XIDwqZVMDonuY9pa5ri1zXCxBGsFXFKrCrH7HD16FShNwmsmigUmHqHCO8q2CmqDqnj/AETz9sbOnrC+LD+LE9HpIzoz4skelp4L8Gz+64kLqMVMdJaLwUg3anOh0T9OaDrLL6uTUfeo1eyT1xLOxxuvbcWXGj1P7P8AV2HxrC7XC+LMVTD3Xg52fGbl0Q8Zh2gDXceiei64ohVM4OLyZ3FpeUrqGnTfeulBFlYWJKCIiALbYp/97T8/H2wtUtziczOrqcfrWnqN1lHaiPdfwz8L3F1CIEUo85MqNZTPKD+bZ2WqyqNZS/KD+bZ2WrCryS8wDnL8L3o5RFlYUY7Iyl1hEBm6wiIAiIgCIiA+zBeEJKaVskbrOaegjaCNoK7LG/AseFqQV1M207G+EYNbwPGaftDYdo6FwS63JzhowVQicfBzb23A7zT8ukLfQquEtRR43YRuKLmuVHzRNgi63Kbi+KOsLmC0U4MjANQPnt6DY8jguSCv4yUkmjgWsnkbnFPGWXB8wfGbsNhJHfeyD5O4CqHjNgWKugFfR6bjOkYNZ9LRseNo2/GQkLscm2NHcNTmSHwExDX31Md5snvseLkUa6oKcc+kl2N5UtaqnD97GaxYXY5QsXhTy7tGPBSnZqY/WRyHWOlccqSSyeR6Ra3ELikqkNj/AHIIiLE3hdLk7iz6+L7Oc73EfNc2u6yT0mdUSSbGRZvS4j+krOCzkQcSqaFrUfZl9dRVURFKPPwo1lM8oP5tnZarKo1lM8oP5tnZatdXkl5gHOX4XvRyiIijHZBERAEREAREQBERAF+o3FpBBsQ64O0EL8ogKZj/AACtwOyoA30YZLyA2Dx77/sqLhXLFkbvgR8Z0+CmZ2iPiocFeWc84HmF9S4OvKHU2vMwiIpZCLXinMMKYHMLzeSMGK513aAY3dVuoqZPbYkHWDZddkPqSJqiLY6Jr+kOt/yWnxvp9zrp2jVupPXp+apLyGjP97zsPZqu3pU3s2/TV6GnREUM6wKuZLqHc6QyHXLISPwjQPgetSilgMj2sbpc5waOUmwV/wAGUYghZE3Uxgb1BbqS15nP+0FfRpRpLa3n8kfYiIt5yIUaymeUH82zstVlUaymeUH82zstWuryS8wDnL8L3o5RERRjsgiIgCIiAIiIAiIgCIstCAq2IwzcFSOOq0p6Lf2UNCt2MMv+n4DMep7ohEB9t/j25AXHoUQCu7KLUWeZYhUVS4nJbG2ERFMIBQsijL1sp4KY+97V4Y+PvhCf8YH8DVvsjNFudPUVL9AcQwE+i0Fzj/EPZXG4Vq92mkl9ORzuS50KnvnnM6v2ZpvTlPoSy+r/AAfIiyvahpXzSNjjF3OdYD/3YoJ2Dkks3sOvyY4H3WczuG9i0DjeR8h8Qq0tVi9gptJTsibpsLud6TjrK2qlQjkjgMRu/wDJrufRsXcERFkQQo1lM8oP5tnZarKo1lM8oP5tnZatdXkl5gHOX4XvRyiIijHZBERAEREAREQBFlYQGV1mT3ABqZxI4eChIJv5zvNaPif7rU4t4AkrZc1gs0HfOOpo+Z4l0WOeNMVBB3BQnf2zZJG6cy/jDO2yHadnLqkUKLqSWRQ41iUaFN0oPjPyXr1GhyqYyirqdxjN4oCRcanSeceMDUOnhXDBforCvYQUVkjg5PN5mV74PonzysijbnPe4NaOP6LyjYXENAJJNgBpJJ1ABVTFrBceBYO6aoA1UjbRxbWDg5eE7NXLhWqqnHNmyjRnVmoQWbZ92Nk7MHYPjoYjvnMs4jXm63uP4nX6LqbhfVhKvfUSulkN3ONzxcAHEF50tK+V4ZG0lxOhrRcn+3GqCcnOWZ6Nh9nGzoaL27WebGkkAC5PBtVbxDxV7lbu0o8M8aB/tt4OU7V54nYlCmtLNZ0vmt1tj+ruPZsXbLbCGWtlDi2KqqnRo8npfX3dm/uMoiLac+EREAUaymeUH82zstVlXH4wYjsrJ3TGVzSQBYNB1C2u6wnFtai0wm6p29dzqPJZNbiPoqd3r2esO9kfVO9ez1h3sD6rRwcjpPfdn8Xk/QmKKnd69nrDvYH1TvXs9Yd7A+qcHIe+7P4vJ+hMUVO717PWHewPqnevZ6w72B9U4OQ992fxeT9CYoqd3r2esO9kfVe1Nk0gBu+WR3ELNB9xX1UpGMscs0trfyf3yJa1hJsBc7ANZXT4MxTs3d66QU8A0782kdxBuz48SoH/AEq2IWpXsgNvH3ESy+29x+C0GEMmHdD8+avmkdwvaDbk32joW+nRhnx35FReY/UktGhHLteWf48zlsP4/NbF3Ng1m5RDQZbWkfwkcF+E6eRcESq6MjsXrT/3bfqvWHJBTg7+old+ENb8bqyhWowWUTmZqpN6UtbI8tpgXF2oq9MbLMHjSyHMiZw5zzo6Bcqz0OTqhhAzWEuHnSEPPU4ZvuX3S4pQSW3UySAamvkIaOCzW2A6FjO71cRfU2UqEG/9ksl2LN71vJzg99JgsXhtU1Vrbs4eCiP6sazy+/Yta6Gqr5S/Nklc7aA4gcV9QCsVLi3SR+JTxgjaW5x63XK2rGADQAORV89Ko85MvLfEbe0jlb09fxSevy9SWYHybyvsah4jb6Ld8/r1D3qgYGwFBSNtEwA20uOlzuU/JbVEjFLYQ7rEK9zqnLV1LUjKIiyIQREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREB/9k=" alt="">
+          <h2>BBD Group</h2>
+        </div>
+        <div class="col-lg-4">
+          <h2>Contact Info</h2>
+          <h4>locattion</h4>
+          <h5>FC-26, Shastri Park, New Delhi - 110 053</h5>
+          <h4>Phone numbers:</h4>
+          <h5>+91(11) 49905900-99</h5>
+          <h4>E-mail:</h4>
+          <h4>info@adgitmdelhi.ac.in</h4>
+        </div>
+        <div class="col-lg-4">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+          <ul>
+            <li><a href="Placement.html">Placements</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">aaa</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">bbb</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">gallery</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <div class="credit">
+      <p>
+        © Copyright 2023. All Rights Reserved by ADGITM, New Delhi. Powered by Team GAP
+      </p>
+    </div>
+    
   </body>
 </html>
