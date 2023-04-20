@@ -1,5 +1,5 @@
-body {
-  padding-top: 120px;
+.header {
+  margin-bottom: 60px;
 }
 
 .main-heading {
@@ -68,6 +68,7 @@ body {
   color: rgb(37, 37, 37);
   line-height: 32px;
   width: 1200px;
+  margin-bottom: 12px;
 }
 
 .it-list {
